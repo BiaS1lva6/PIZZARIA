@@ -43,36 +43,63 @@ header{
     margin: 0 auto;
 }
 .main-navigation {
-    display:flex
-}
-
-.main-navigation ul{
- list-style: none;
- display: flex;
- gap: 28px;
- align-items: flex-end;
- margin: 0;
-}
-
-.main-navigation a{
+    display: flex;
+    align-items: center;
+  }
+  
+  .main-navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .main-navigation a {
     color: #fff;
     display: block;
     text-decoration: none;
-    font-size: 17px; /* tamanho*/
-    font-weight: 700; /* grossura*/
+    font-size: 17px;
+    font-weight: 700;
     font-family: Helvetica, sans-serif;
     border-bottom: solid 3px transparent;
-}
-
-.main-navigation a:hover,
-.main-navigation a:focus {
+  }
+  .main-navigation a:hover,
+  .main-navigation a:focus {
     border-color: #e7a200;
-}
-
-.site-header-main{
+  }
+  
+  .site-header-main {
     display: flex;
     justify-content: space-between;
-}
-.sec-menu{
+    height: 125px;
+  }
+  
+  .sec-menu {
     display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .sec-menu ion-icon {
+    font-size: 25px;
+  }
+  
+  #btnZap {
+    background: #e7a200;
+    border-radius: 65px;
+    padding: 0px 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 40px;
+  
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.Zap{  /* coloquei . porque é uma class se não for coloca # */
+    text-decoration: none;
+    color: #fff;
+
 }
