@@ -16,7 +16,8 @@ body {
 
 .bgfundo {
   /* */
-  background: url(https://placehold.co/1920x1080) center/cover;
+  background: url(../img/imagemdefundo.jpg) center/cover;
+  background-position: top;
   /* background-color: blue;
       background-image: url(https://placehold.co/1920x1080); 
       background-repeat: no-repeat;
@@ -318,7 +319,7 @@ header {
 }
 
 footer {
-  background: #e8672c;
+  background: #cfa44c;
   min-height: 400px;
   margin-top: -320px;
   color: #fff;
