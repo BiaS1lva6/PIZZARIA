@@ -85,7 +85,7 @@ header {
 }
 .main-navigation a:hover,
 .main-navigation a:focus {
-  border-color: #e7a200;
+  border-color: #cb4d11;
 }
 
 .site-header-main {
@@ -105,7 +105,7 @@ header {
 }
 
 #btnZap {
-  background: #e7a200;
+  background: #cd602e;
   border-radius: 65px;
   padding: 0px 15px;
   font-size: 20px;
@@ -128,9 +128,7 @@ header {
   right: 0;
   top: 200px;
   z-index: 10;
-  box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  filter: drop-shadow(-2px 4px 6px black);
 }
 
 #BoasVindas {
@@ -161,7 +159,7 @@ header {
 #TextoBoasVindas h3 {
   text-transform: uppercase;
   font-weight: 900;
-  color: #e7a200;
+  color: #cb4d11;
   font-size: 23px;
   margin-top: 20px;
   margin-bottom: 0;
@@ -186,7 +184,7 @@ header {
 }
 
 #Cardapio h2 {
-  color: #d03012;
+  color: #CB4D11;
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 700;
@@ -230,7 +228,7 @@ header {
 
 #Delivery h1{
     text-transform: uppercase;
-    color: #bf0a26;
+    color: #CB4D11;
     font-weight: 900;
 }
 
@@ -273,7 +271,7 @@ header {
 }
 
 .forms h2 {
-  color: #e7a200;
+  color: #cb6333;
   font-size: 28px;
   line-height: 80px;
   margin: 0;
@@ -310,8 +308,8 @@ header {
 }
 
 .forms input[type= "submit"]{
-  background: #e7a200;
-  border-color: #e7a200;
+  background: #CB4D11;
+  border-color: #cb4d11;
   width: 155px;
   border-radius: 50px;
   color: #fff;
@@ -320,7 +318,7 @@ header {
 }
 
 footer {
-  background: #e7a200;
+  background: #e8672c;
   min-height: 400px;
   margin-top: -320px;
   color: #fff;
